@@ -29,7 +29,7 @@ class ApiAuthController extends Controller
         $request->validate([
             "name" => "required",
             "email" => "required|unique:users|email",
-            "password" => "required|min:6|max:20|pattern",
+            "password" => "required|min:6|max:20",
             "cpassword" => "required|same:password"
         ]);
 

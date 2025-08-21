@@ -1,22 +1,22 @@
-POST http://127.0.0.1:8000/api/v1/auth/register
+POST https://apiflutter2.blumbit.net/api/v1/auth/register
 Content-Type: application/json
 Accept: application/json
 
 {
-    "name": "Administrador",
-    "email": "admin@mail.com",
-    "password": "admin54321",
-    "cpassword": "admin54321"
+    "name": "Cristian",
+    "email": "cristian@mail.com",
+    "password": "cristian54321",
+    "cpassword": "cristian54321"
 }
 
 ###
-POST http://127.0.0.1:8000/api/v1/auth/login
+POST https://apiflutter2.blumbit.net/api/v1/auth/login
 Content-Type: application/json
 Accept: application/json
 
 {
-    "email": "maria@mail.com",
-    "password": "maria54321"
+    "email": "admin@mail.com",
+    "password": "admin54321"
 }
 
 ### Perfil

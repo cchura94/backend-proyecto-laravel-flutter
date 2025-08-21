@@ -1,0 +1,36 @@
+GET https://apiflutter2.blumbit.net/api/categoria
+Accept: application/json
+Authorization: Bearer 3|hFxWhzgFEX6dkWU04ZmBurkZwWJWlYSU7sVPCIKN19f98405
+
+### Guardar categoria
+POST https://apiflutter2.blumbit.net/api/categoria
+Accept: application/json
+Content-Type: application/json
+Authorization: Bearer 1|qStsqqhAWsIg8neJbyl9dvmCCxDgohNWtJogu7zD8803b943
+
+{
+    "nombre": "PRUEBA"
+}
+
+### Mostrar categoria
+GET https://apiflutter2.blumbit.net/api/categoria/2
+Accept: application/json
+Authorization: Bearer 1|qStsqqhAWsIg8neJbyl9dvmCCxDgohNWtJogu7zD8803b943
+
+
+### Modificar categoria
+PUT https://apiflutter2.blumbit.net/api/categoria/2
+Accept: application/json
+Content-Type: application/json
+Authorization: Bearer 1|qStsqqhAWsIg8neJbyl9dvmCCxDgohNWtJogu7zD8803b943
+
+{
+    "nombre": "Infusiones (Mates)",
+    "detalle": "Infusiones"
+}
+
+### Eliminar
+DELETE https://apiflutter2.blumbit.net/api/categoria/3
+Accept: application/json
+Authorization: Bearer 1|qStsqqhAWsIg8neJbyl9dvmCCxDgohNWtJogu7zD8803b943
+
